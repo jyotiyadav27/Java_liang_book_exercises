@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercise7_18 {
+
     public static void bubbleSortArray(int[] arr){
         int temp;
         for(int i =0; i<arr.length-1; i++){
@@ -11,7 +12,7 @@ public class Exercise7_18 {
                     temp=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
-                    swapped=true;
+                    swapped = true;
                 }
             }
             if(swapped== false)
