@@ -1,13 +1,13 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exerise7_31 {
+public class Exercise7_20 {
 
     public static int[] merge(int[] list1, int[] list2){
         int[] list3 = new int[list1.length + list2.length];
         int i=0, j=0, k=0;
         while(i<list1.length && j<list2.length){
-            if(list1[i]>list2[j])
+            if(list1[i]>list1[j])
             {
                 list3[k++]= list2[j++];
             } else list3[k++]= list1[i++];
