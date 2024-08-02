@@ -5,7 +5,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class Exercise8_1 {
     public static void sumColumn(double[][] m) {
         double[] sum =new double[]{0,0,0,0};
         for(int j=0;j<4;j++){
