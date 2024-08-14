@@ -1,6 +1,6 @@
 import java.io.IOException;
 
-public class Main{
+public class WriteData{
     public static void main(String[] args) throws IOException {
 //        String currentDir = System.getProperty("user.dir");
         java.io.File file = new java.io.File("blank.txt");
