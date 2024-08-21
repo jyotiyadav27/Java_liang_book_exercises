@@ -10,5 +10,6 @@ public class ReadData{
 
             }
         }
+        input.close();
     }
 }
