@@ -12,8 +12,7 @@ public class countOccureneceWords{
             } else {
                 int value = m.get(str);
                 value++;
-                m.put(str,value);
-            }
+                m.put(str, value);}
         }
         Set<Map.Entry<String, Integer>> entrySet = m.entrySet();
         for(Map.Entry<String, Integer> e1:entrySet){
